@@ -8,11 +8,12 @@ import First from './pages/first'
 
 function App() {
 
+    const pixelId = process.env.REACT_APP_PIXEL_ID;
+
   useEffect(() => {
     // Initialize Meta Pixel
     const options = { autoConfig: true, debug: true };
-    ReactPixel.init("764279112805892", options);
-    764279112805892
+    ReactPixel.init(pixelId, options);
     ReactPixel.pageView(); // Track page views
   }, []);
 

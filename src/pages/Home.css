@@ -1,0 +1,126 @@
+* {
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+
+}
+.background-wrapper {
+  background: url("/img/bull.png") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.first-section .first-col .bottom-sec {
+    /* background: radial-gradient(circle at left, rgb(81 86 66 / 60%), transparent 40%), radial-gradient(circle at right, rgb(56 65 40 / 60%), transparent 40%), #363e2bd4; */
+    background-color: rgb(8 3 24) !important;
+}
+
+@media (max-width: 768px) {
+    .header-img {
+        height: 450px !important;
+    }
+}
+
+.first-section .first-col{
+    background: radial-gradient(circle at left, rgba(128, 128, 128, 0.6), transparent 40%), 
+  radial-gradient(circle at right, rgba(100, 100, 100, 0.6), transparent 40%), 
+  #811a1a;
+}
+.first-section .second-col {
+    /* background-color: #a00000;  */
+    /* color: white; */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding-top: 100px !important;
+}
+
+.main-title {
+    background: rgb(8 3 24) !important;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.box {
+    color: #a00000;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (max-width: 650px) {
+    .box{
+        width: 85%;
+        margin:0 auto 20px !important;
+    }
+}
+.section-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.caution {
+    top: -32px;
+    right: 35px;
+    width: fit-content;
+    display: block;
+    padding: 0 20px;
+}
+
+.order-now-btn,
+.box-title {
+    /* background: radial-gradient(circle at left, rgb(126 139 92 / 60%), transparent 40%),
+    radial-gradient(circle at right, rgb(90 102 70 / 60%), transparent 40%),
+    #3e4b2e */
+        background-color: #811a1a !important;
+    color: white;
+}
+
+.container-custom {
+    max-width: 600px;
+    margin: auto;
+}
+
+.second-section .first-col p {
+    padding-right: 30px !important;
+    border-right: 2px solid black;
+    margin-right: 25px !important;
+    margin-bottom: 25px !important;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.second-section .second-col {
+    background: radial-gradient(circle at left, rgba(128, 128, 128, 0.6), transparent 40%), 
+  radial-gradient(circle at right, rgba(100, 100, 100, 0.6), transparent 40%), 
+  #811a1a;
+}
+
+.third-section .first-col {
+    background: radial-gradient(circle at left, rgba(128, 128, 128, 0.6), transparent 40%), 
+  radial-gradient(circle at right, rgba(100, 100, 100, 0.6), transparent 40%), 
+  #811a1a;}
+
+.third-section .first-col .price {
+    width: fit-content;
+}
+
+.toast-success,
+.toast-error {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form {
+    background: radial-gradient(circle at left, rgba(128, 128, 128, 0.6), transparent 40%), 
+  radial-gradient(circle at right, rgba(100, 100, 100, 0.6), transparent 40%), 
+  rgb(186 185 188);
+    border-radius: 15px;
+    color: white;
+}

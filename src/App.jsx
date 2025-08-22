@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router'
 import Home from './pages/Home'
 import Completed from './pages/Completed'
 import ReactPixel from 'react-facebook-pixel';
-import First from './pages/first'
+import First from './pages/First'
 
 function App() {
 

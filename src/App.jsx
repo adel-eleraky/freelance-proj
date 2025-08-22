@@ -8,7 +8,7 @@ import First from './pages/First'
 
 function App() {
 
-    const pixelId = process.env.REACT_APP_PIXEL_ID;
+const pixelId = import.meta.env.VITE_PIXEL_ID;
 
   useEffect(() => {
     // Initialize Meta Pixel

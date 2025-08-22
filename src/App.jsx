@@ -14,6 +14,8 @@ function App() {
     // Initialize Meta Pixel
     const options = { autoConfig: true, debug: true };
     ReactPixel.init(pixelId, options);
+
+    console.log("pixel id" , pixelId)
     ReactPixel.pageView(); // Track page views
   }, []);
 

@@ -38,8 +38,8 @@ function Home() {
     return (
         <>
         
-            <div className="py-4 text-center text-white fs-3 fw-bold" style={{ backgroundColor: 'rgb(8 3 24)'}}>
-                💰 سعر العبوة: <span className="text-warning">390 جنيه</span> | بدلا من 550 <span className="text-success"> + الشحن مجانا لجميع المحافظات </span>
+            <div className="py-4 text-center text-white fs-3 fw-bold" style={{ backgroundColor: 'rgb(2 0 0)'}}>
+                💰 سعر العبوة: <span className="text-warning">370 جنيه</span> | بدلا من 550 <span className="text-success"> + الشحن مجانا لجميع المحافظات </span>
             </div>
             <div className="first-section">
                 <div className="row">
@@ -49,7 +49,7 @@ function Home() {
                                 <h1 className='mx-auto' style={{ margin: 'auto' }}>  وداعا لضعف الانتصاب استعيد ثقتك و فحولتك <span className='rounded d-block text-white mx-auto mt-2 px-2 py-1' style={{ backgroundColor: 'black', width: 'fit-content' }}> من جديد </span> </h1>
                             </div>
                             <div>
-                                <img src="img/croton_gel_nobg.png" alt="" className="img-fluid w-100 header-img" style={{ height: "550px" }} />
+                                <img src="img/marvel_nobg.png" alt="" className="img-fluid w-100 header-img" style={{ height: "550px" }} />
                             </div>
 
                         </div>
@@ -113,7 +113,7 @@ function Home() {
                                 <p> لانه يعطيك القوة و الفحولة التى تريدها </p>
                                 <p> لانه كورس علاج نهائى و ليس حل مؤقت </p>
                             </div>
-                            <div className="col-12 col-md-6"> <img src="img/croton_gel_nobg.png" alt="" className="img-fluid" style={{ height: "550px" }} /> </div>
+                            <div className="col-12 col-md-6"> <img src="img/marvel_nobg.png" alt="" className="img-fluid" style={{ height: "550px" }} /> </div>
                         </div>
                     </div>
                     <div className="col-12 col-md-6 second-col">
@@ -143,16 +143,46 @@ function Home() {
                 <div className="row">
                     <div className="col-12 col-md-6 first-col">
                         <div className="row">
-                            <div className="col-7">
-                                <div className="price py-2 px-4 fw-bold fs-1 w-100 bg-white rounded mt-5 text-center" >
-                                    السعر <br /> 390
-                                    <span className='d-block text-white bg-dark rounded px-2 mt-2' > <del>بدلا من 550 </del> </span>
+                           
+                            <div className='col-7'>
+                                <div style={{  display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '2rem'}}>
+                                    <div className="price-card-modern">
+                                        <div className="discount-badge">
+                                        وفر 33%
+                                        </div>
+
+                                        <div className="price-header">
+                                        <span className="price-label">السعر الخاص</span>
+                                        </div>
+
+                                        <div className="price-content">
+                                        <div className="current-price">
+                                            <span className="amount">370</span>
+                                            <span className="currency">جنيه</span>
+                                        </div>
+
+                                        <div className="original-price">
+                                            <span className="old-label">السعر الأصلي</span>
+                                            <span className="old-amount">550 جنيه</span>
+                                        </div>
+                                        </div>
+
+                                        <div className="price-footer">
+                                        <div className="savings-highlight">
+                                            <svg className="savings-icon" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z"/>
+                                            <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z" clipRule="evenodd"/>
+                                            </svg>
+                                            توفير 180 جنيه
+                                        </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div className="col-5"><img src="img/croton_gel_nobg.png" alt="" className="img-fluid" /></div>
+                            <div className="col-5"><img src="img/marvel_nobg.png" alt="" className="img-fluid" /></div>
                         </div>
 
-                        <p className='text-white p-2 rounded fw-bold fs-3 m-auto mt-5' style={{ width: "fit-content", backgroundColor: 'rgb(8 3 24)' }}> الشحن مجانى لجميع المحافظات  </p>
+                        <p className='text-white p-2 rounded fw-bold fs-3 m-auto mt-5' style={{ width: "fit-content", background: '#811a1a' }}> الشحن مجانى لجميع المحافظات  </p>
                         <p className='text-dark bg-white rounded mb-3 py-2 px-3 fw-bold fs-3 m-auto mt-4' style={{ width: "fit-content" }}> الدفع عند استلام المنتج </p>
                     </div>
                     <div className="col-12 col-md-6">

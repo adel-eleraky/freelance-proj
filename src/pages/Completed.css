@@ -1,7 +1,5 @@
 .completed_order {
-background: radial-gradient(circle at left, rgba(128, 128, 128, 0.6), transparent 40%), 
-  radial-gradient(circle at right, rgba(100, 100, 100, 0.6), transparent 40%), 
-  rgb(8 3 24);
+background: radial-gradient(circle at left, rgb(43 39 39 / 60%), transparent 40%), radial-gradient(circle at right, rgb(43 39 39 / 60%), transparent 40%), #000000;
 }
 
 .completed_order img {

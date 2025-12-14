@@ -12,7 +12,7 @@ function Completed() {
     return (
         <div className='completed_order h-100 text-white py-5'>
             <h3 className="fs-2 text-center w-75 m-auto"> تم تسجيل بياناتك بنجاح, سيتم التواصل معك فى أقرب وقت </h3>
-            <img src="img/croton_gel_nobg.png" alt="" className="img-fluid d-block m-auto " />
+            <img src="img/marvel_nobg.png" alt="" className="img-fluid d-block m-auto " />
         </div>
     )
 }
